@@ -1,0 +1,303 @@
+body { font: 18px/1.5 sans-serif; }
+/* stylelint-disable-next-line rule-empty-line-before */
+.absolute {
+  position: absolute;
+  height: 2200px;
+  left: 0;
+  right: 0;
+  background: hsl(273deg 100% 26%);
+  color: rgb(255 98 0);
+}
+
+.absolute h1 {
+  margin-left: 100px;
+}
+
+a,
+a:visited {
+  color: white;
+  margin-left: 100px;
+}
+
+section {
+  text-align: right;
+  margin-right: 40px;
+  margin-top: -60px;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.dmitry {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+
+.section2 {
+  display: inline;
+}
+
+.div {
+  height: 600px;
+  margin-left: 1000px;
+  width: 600px;
+  background: hsl(273deg 100% 26%);
+}
+
+.div1 {
+  height: 600px;
+  margin-left: 500px;
+  width: 600px;
+  background: hsl(273deg 100% 26%);
+  position: absolute;
+  margin-top: -600px;
+  left: -200px;
+}
+
+.div1 h1 {
+  position: relative;
+  left: -350px;
+  top: 100px;
+  color: white;
+}
+
+.div1 p {
+  text-align: left;
+  font-size: 48px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+.div img {
+  width: 600px;
+  height: 600px;
+}
+
+.section3 {
+  display: inline;
+}
+
+.section22 .div2 {
+  height: 600px;
+  width: 400px;
+  background: rgb(255 255 255);
+  position: absolute;
+  margin-left: 50px;
+}
+
+.section22 .div3 {
+  height: 600px;
+  width: 400px;
+  background: rgb(255 255 255);
+  position: absolute;
+  margin-left: 500px;
+}
+
+.section22 .div4 {
+  height: 600px;
+  width: 400px;
+  background: rgb(255 255 255);
+  position: absolute;
+  margin-left: 950px;
+}
+
+.section22 {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.section22 .div5 {
+  position: absolute;
+  height: 600px;
+  width: 400px;
+  background: rgb(255 255 255);
+  margin-left: 1400px;
+}
+
+.section22 .div2 img {
+  transform: translate(-180px, 50px);
+}
+
+.section22 .div2 h1 {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 50px;
+  color: black;
+}
+
+.section22 .div2 p {
+  color: black;
+  position: absolute;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 100px;
+}
+
+.section22 .div3 img {
+  transform: translate(-220px, 40px);
+  position: absolute;
+}
+
+.section22 .div3 h1 {
+  color: black;
+  position: absolute;
+  margin-left: 168px;
+  margin-top: 110px;
+}
+
+.section22 .div3 p {
+  color: black;
+  position: absolute;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 170px;
+}
+
+.section22 .div4 img {
+  transform: translate(-235px, 40px);
+  position: absolute;
+}
+
+.section22 .div4 h1 {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 100px;
+  color: black;
+}
+
+.section22 .div4 p {
+  color: black;
+  position: absolute;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 170px;
+}
+
+.section22 .div5 img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  transform: translate(-250px, 15px);
+}
+
+.section22 .div5 h1 {
+  color: black;
+  position: absolute;
+  margin-left: 185px;
+  margin-top: 90px;
+}
+
+.section22 .div5 p {
+  color: black;
+  position: absolute;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 170px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.div23 img {
+  width: 500px;
+  height: 500px;
+  transform: translate(290px, 700px);
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.div23 h1 {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1040px;
+  font-size: 25px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.div23 ul {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 1000px;
+}
+
+.div24 {
+  width: 600px;
+  height: 670px;
+  background: hsl(273deg 100% 26%);
+  position: absolute;
+  margin-left: 1030px;
+  margin-top: 150px;
+}
+
+.div24 ul li {
+  position: absolute;
+  margin-left: 50px;
+  color: white;
+}
+
+.div24 ul {
+  color: white;
+}
+
+.div24 ul .li1 {
+  margin-top: 55px;
+}
+
+.div24 .ul {
+  margin-top: 160px;
+}
+
+.div24 .ul .li2 {
+  position: absolute;
+  margin-top: 55px;
+}
+
+.div24 .ul .li3 {
+  position: absolute;
+  margin-top: 110px;
+}
+
+.div24 .ul .li4 {
+  position: absolute;
+  margin-top: 140px;
+}
+
+.div24 .ul .li5 {
+  position: absolute;
+  margin-top: 195px;
+}
+
+.div24 .ul1 {
+  position: absolute;
+  margin-top: 255px;
+}
+
+.div24 .ul1 .li6 {
+  position: absolute;
+  white-space: nowrap;
+}
+
+.div24 .ul1 .li7 {
+  position: absolute;
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+.div24 .ul1 .li8 {
+  position: absolute;
+  margin-top: 60px;
+  white-space: nowrap;
+}
+
+.div24 .ul1 .li9 {
+  position: absolute;
+  margin-top: 90px;
+  white-space: nowrap;
+}
